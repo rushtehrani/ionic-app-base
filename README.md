@@ -24,3 +24,14 @@ More info on this can be found on the Ionic [Getting Started](http://ionicframew
 ## Issues
 Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
 
+# Changes from Ionic
+
+- Structure changes per: [Angular Seed](https://github.com/angular/angular-seed) and [Angular Best Practices](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)
+- Added Browserify and LESS support
+- Install bower and npm dependencies:
+
+```bash
+$ npm install
+```
+
+
