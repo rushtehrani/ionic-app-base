@@ -26,8 +26,12 @@ Issues have been disabled on this repo, if you do find an issue or have a questi
 
 # Changes from Ionic
 
+- Structure change to adhere to: [Angular Seed](https://github.com/angular/angular-seed) and [Angular Best Practices](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)
+- Added Browserify and LESS support
 - Install bower and npm dependencies:
 
 ```bash
 $ npm install
 ```
+
+
