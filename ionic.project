@@ -1,5 +1,5 @@
 {
   "name": "ionic-app-base",
   "app_id": "",
-  "gulpStartupTasks": ["less", "browserify", "watch"]
+  "gulpStartupTasks": ["wiredep", "less", "browserify", "watch"]
 }

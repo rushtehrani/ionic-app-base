@@ -29,14 +29,15 @@ gulp.task('watch', function() {
 
 gulp.task('bower', function() {
   bower.commands.install()
-    .on('end', function() {
-      gulp.src('./www/index.html')
-        .pipe(wiredep({ devDependencies: true }))
-        .pipe(gulp.dest('./www/'));
-    })
     .on('log', function(data) {
       gutil.log('bower', gutil.colors.cyan(data.id), data.message);
     });
+});
+
+gulp.task('wiredep', function() {
+  gulp.src('./www/index.html')
+    .pipe(wiredep({ devDependencies: true }))
+    .pipe(gulp.dest('./www/'));
 });
 
 gulp.task('browserify', function() {
